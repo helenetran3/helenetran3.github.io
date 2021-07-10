@@ -660,9 +660,9 @@ $sidebar-display: "sidebar-display";
 
   .site-title {
     a {
-      font-weight: 900;
+      font-weight: 600;
       font-size: 1.5rem;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1px;
     }
   }
 
@@ -672,7 +672,7 @@ $sidebar-display: "sidebar-display";
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
-    min-height: 3rem; // avoid vertical shifting in multi-line words
+    // min-height: 3rem; // avoid vertical shifting in multi-line words
     user-select: none;
   }
 

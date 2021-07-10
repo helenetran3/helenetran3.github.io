@@ -19,6 +19,8 @@ title: Hélène TRAN                          # the main title
 
 tagline: Ph.D Candidate in Artificial Intelligence   # it will display as the sub-title
 
+location: Clermont-Ferrand, France     # current location
+
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
   bootstrap Jekyll theme with responsive web design
