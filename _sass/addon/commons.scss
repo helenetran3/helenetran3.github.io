@@ -824,6 +824,11 @@ $sidebar-display: "sidebar-display";
   width: 100%;
 }
 
+.location-wrapper {
+  margin-top: 1rem;
+  width: 100%;
+}
+
 #search-result-wrapper {
   display: none;
   height: 100%;
@@ -1508,7 +1513,7 @@ $sidebar-display: "sidebar-display";
 
     .profile-wrapper {
       margin-top: 4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 4rem;
 
       &.text-center {
         text-align: left !important;

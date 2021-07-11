@@ -26,9 +26,11 @@
 
     <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
 
-    <div class="site-subtitle"><i class="fa-fw fas fa-map-marker-alt"></i> &nbsp; {{- site.location -}}</div>
-    <div class="site-subtitle"><i class="fa-fw fas fa-university"></i> &nbsp; {{- site.university -}}</div>
-    <div class="site-subtitle"><i class="fa-fw far fa-building"></i> &nbsp; {{- site.company -}}</div>
+    <div class="location-wrapper">
+      <div class="site-subtitle"><i class="fa-fw fas fa-map-marker-alt"></i> &nbsp; {{- site.location -}}</div>
+      <div class="site-subtitle"><i class="fa-fw fas fa-university"></i> &nbsp; {{- site.university -}}</div>
+      <!-- <div class="site-subtitle"><i class="fa-fw far fa-building"></i> &nbsp; {{- site.company -}}</div> -->
+    </div>
 
   </div><!-- .profile-wrapper -->
 
@@ -58,11 +60,13 @@
       {% capture url %}
         {%- if entry.type == 'github' -%}
           https://github.com/{{ site.github.username }}
+        {%- elsif entry.type == 'linkedin' -%}
+          https://www.linkedin.com/in/{{ site.linkedin.username }}
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-        {%- elsif entry.type == 'rss' -%}
-          {{ "/feed.xml" | relative_url }}
+        {%- elsif entry.type == 'researchgate' -%}
+          https://www.researchgate.net/profile/{{ site.researchgate.username }}
         {%- else -%}
           {{ entry.url }}
         {%- endif -%}
