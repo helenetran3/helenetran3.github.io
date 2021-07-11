@@ -21,6 +21,10 @@ tagline: Ph.D Candidate in Artificial Intelligence   # it will display as the su
 
 location: Clermont-Ferrand, France     # current location
 
+university: LIMOS    # current location
+
+company: Jeolis Solutions     # current location
+
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
   bootstrap Jekyll theme with responsive web design

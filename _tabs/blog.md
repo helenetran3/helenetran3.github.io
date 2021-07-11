@@ -1,6 +1,6 @@
 ---
 title: Blog
-icon: fas fa-edit
+icon: fas fa-pen-nib
 order: 4
 ---
 
