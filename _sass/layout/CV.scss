@@ -31,7 +31,7 @@
           left: 8px;
         }
 
-        a {
+        a, p {
           /* Education title */
           margin-left: 4.2rem;
           position: relative;
@@ -63,7 +63,7 @@
   .date {
     white-space: nowrap;
     display: inline-block;
-    
+
     &::after { /* Year dot */
       content: "";
       display: block;
@@ -81,6 +81,14 @@
       box-shadow: 0 0 2px 0 #c2c6cc;
       z-index: 1;
     }
+  }
+
+  .educ-location{
+    white-space: nowrap;
+    display: inline-block;
+    // text-align: right;  // For right-align
+    // position: absolute;
+    // right: 50px;
   }
 
 } // #CV

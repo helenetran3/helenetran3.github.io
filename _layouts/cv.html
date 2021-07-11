@@ -21,7 +21,12 @@ layout: page
           <span class="small text-muted"> - {{ end_month }} </span>
           <span>{{ end_year }}</span>
         </span>
+
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="educ-location small">
+          <span>{{ post.school }},</span>
+          <span class="text-muted"> <i>{{ post.location }}</i></span>
+        </span>
       </div>
     </li>
     {% endfor %}
