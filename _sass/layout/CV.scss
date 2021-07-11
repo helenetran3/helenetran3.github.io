@@ -2,10 +2,10 @@
   Style for CV
 */
 
-%date-timeline {
+%date-timeline-CV {  /* Vertical bar timeline */
   content: "";
   width: 4px;
-  left: 156px;
+  left: 121px;
   display: inline-block;
   float: left;
   position: relative;
@@ -17,7 +17,7 @@
 
   ul {
     li {
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       line-height: 3rem;
 
       div {
@@ -26,7 +26,7 @@
         text-overflow: ellipsis;
 
         span {
-          font-size: 1.5rem;
+          // font-size: 1.1rem;
           position: relative;
           left: 8px;
 
@@ -40,7 +40,7 @@
             width: 12px;
             height: 12px;
             top: -29px;
-            left: 140px;
+            left: 105px;
             border: 3px solid;
             background-color: var(--timeline-year-dot-color);
             border-color: var(--timeline-node-bg);
@@ -51,7 +51,7 @@
 
         a {
           /* Education title */
-          margin-left: 11.5rem;
+          margin-left: 9rem;
           position: relative;
           top: -3.8rem;
         }
@@ -63,7 +63,7 @@
       }
 
       &::before {
-        @extend %date-timeline;
+        @extend %date-timeline-CV;
 
         height: 6.7rem;
         top: 1.3rem;
