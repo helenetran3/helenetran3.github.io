@@ -999,6 +999,7 @@ $sidebar-display: "sidebar-display";
 #page {
   .categories,
   #tags,
+  #CV,
   #archives {
     a:not(:hover) {
       @extend %no-bottom-border;
