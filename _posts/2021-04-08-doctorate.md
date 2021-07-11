@@ -7,6 +7,4 @@ date-end: 2024-04-08 00:00:00 -0500
 categories: [Education]
 ---
 
-# Doctorate
-
 Multimodal Emotion Recognition

@@ -5,7 +5,7 @@
 %date-timeline-CV {  /* Vertical bar timeline */
   content: "";
   width: 4px;
-  left: 121px;
+  left: 181px;
   display: inline-block;
   float: left;
   position: relative;
@@ -29,31 +29,12 @@
           // font-size: 1.1rem;
           position: relative;
           left: 8px;
-
-          &::after { /* Year dot */
-            content: "";
-            display: block;
-            position: relative;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;
-            width: 12px;
-            height: 12px;
-            top: -29px;
-            left: 105px;
-            border: 3px solid;
-            background-color: var(--timeline-year-dot-color);
-            border-color: var(--timeline-node-bg);
-            box-shadow: 0 0 2px 0 #c2c6cc;
-            z-index: 1;
-          }
         }
 
         a {
           /* Education title */
-          margin-left: 9rem;
+          margin-left: 4.2rem;
           position: relative;
-          top: -3.8rem;
         }
       }
 
@@ -65,19 +46,42 @@
       &::before {
         @extend %date-timeline-CV;
 
-        height: 6.7rem;
+        height: 3.8rem;
         top: 1.3rem;
       }
 
       &:last-child::before {
 
         height: 0.1rem;
-        top: 1.3rem;
+        top: 1.4rem;
       }
 
     }
 
   } // #CV ul
+
+  .date {
+    white-space: nowrap;
+    display: inline-block;
+    
+    &::after { /* Year dot */
+      content: "";
+      display: block;
+      position: relative;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      top: -29px;
+      left: 165px;
+      border: 3px solid;
+      background-color: var(--timeline-year-dot-color);
+      border-color: var(--timeline-node-bg);
+      box-shadow: 0 0 2px 0 #c2c6cc;
+      z-index: 1;
+    }
+  }
 
 } // #CV
 

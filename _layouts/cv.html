@@ -9,10 +9,19 @@ layout: page
   <ul class="list-unstyled">
     {% for post in site.categories.Education %}
     {% capture post_date %}{{ post.date | date: "%Y" }}{% endcapture %} 
+    {% capture start_year %}{{ post.date-start | date: "%Y" }}{% endcapture %}  
+    {% capture end_year %}{{ post.date-end | date: "%Y" }}{% endcapture %} 
+    {% capture start_month %}{{ post.date-start | date: "%b" }}{% endcapture %}  
+    {% capture end_month %}{{ post.date-end | date: "%b" }}{% endcapture %}
     <li>
       <div>
-        <span class="text-muted">{{ post_date }} - {{ post_date }}</span>
-        <a>{{ post.title }}</a>
+        <span class="date">
+          <span class="small text-muted">{{ start_month }}</span>
+          <span>{{ start_year }}</span>
+          <span class="small text-muted"> - {{ end_month }} </span>
+          <span>{{ end_year }}</span>
+        </span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </div>
     </li>
     {% endfor %}
