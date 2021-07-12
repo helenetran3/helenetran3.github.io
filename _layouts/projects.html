@@ -1,11 +1,11 @@
 ---
 layout: page
-# The Home page layout
+# The Project page layout
 ---
 
-
-{% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true"  %}
+{% assign project_posts = site.categories.Projects %}
+{% assign pinned = project_posts | where_exp: "item", "item.pin == true"  %}
+{% assign default = project_posts | where_exp: "item", "item.pin != true"  %}
 {% assign posts = "" | split: "" %}
 
 <!-- Get pinned posts -->

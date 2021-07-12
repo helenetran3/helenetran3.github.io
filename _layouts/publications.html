@@ -1,12 +1,11 @@
 ---
 layout: page
-# All the publications.
+# The Publication page layout
 ---
 
-
-
-{% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true"  %}
+{% assign pub_posts = site.categories.Publications %}
+{% assign pinned = pub_posts | where_exp: "item", "item.pin == true"  %}
+{% assign default = pub_posts | where_exp: "item", "item.pin != true"  %}
 {% assign posts = "" | split: "" %}
 
 <!-- Get pinned posts -->
