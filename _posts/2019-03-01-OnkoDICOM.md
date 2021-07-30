@@ -9,7 +9,7 @@ location: Australia
 pin: true
 ---
 
-## Front-End Developement of ONkoDICOM Software for Radiation Oncologists
+## Front-End Development of OnkoDICOM Software for Radiation Oncologists
 
 Official website
 : <https://onkodicom.com.au>
