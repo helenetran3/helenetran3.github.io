@@ -4,6 +4,7 @@ author: Hélène Tran
 date-start: 2016-09-01 00:00:00 -0500
 date-end: 2020-11-01 00:00:00 -0500
 categories: [Education]
+tags: [Computer Science, Mathematics, Project Management]
 school: ENSIIE
 location: Strasbourg and Evry, France
 ---
