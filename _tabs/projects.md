@@ -2,5 +2,5 @@
 layout: projects
 title: Projects
 icon: fas fa-briefcase
-order: 2
+order: 1
 ---

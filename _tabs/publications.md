@@ -2,7 +2,7 @@
 # layout: publications
 title: Publications
 icon: fas fa-stream
-order: 1
+order: 2
 ---
 
 > *Coming soon!*

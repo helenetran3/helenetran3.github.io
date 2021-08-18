@@ -13,13 +13,12 @@ pin: true
 
 <!-- *From February 24 to August 21, 2020* -->
 
-*Under the supervision of* ***Eric Moulton*** *from Guerbet and* ***Nicolas Brunel*** *from ENSIIE school*
+***Classification of prostate cancer tumors in multiparametric MRI using Deep Learning techniques***
 
-Purpose
-: Classification of prostate cancer tumors in multiparametric MRI using Deep Learning techniques
+### Task performed
 
-Task performed
-: 
+<span style="color:grey">*Under the supervision of Eric Moulton from Guerbet and Nicolas Brunel from ENSIIE school*</span>
+
 - Literature review, familiarisation with prostate imaging and pathologies
 - Medical imaging preprocessing: normalisation, data augmentation, segmentation
 - Development of convolutional network models in Python, with the TensorFlow 2.0 library
@@ -28,5 +27,5 @@ Task performed
 - Regular presentation of the progress during the team meeting
 - Internship report writing 
 
-Link to the report (written in French)
-: <https://drive.google.com/file/d/1nNr9lDPM0Ts1j4GTNkef6rWYZIDaGQNL/view?usp=sharing>
+### Useful links
+- Final report (in French): <https://drive.google.com/file/d/1nNr9lDPM0Ts1j4GTNkef6rWYZIDaGQNL/view?usp=sharing>
