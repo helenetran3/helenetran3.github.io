@@ -2,6 +2,23 @@
   Style for Homepage
 */
 
+#about {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-right: 0.5rem;
+
+  .p { 
+    margin-bottom: 0.5rem;
+  }
+
+} // #about
+
+#background {
+  .p { 
+    margin-bottom: 0.5rem;
+  }
+} // #background
+
 .pagination {
   font-size: 1rem;
   a:hover {
