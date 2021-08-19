@@ -4,7 +4,7 @@ author: Hélène Tran
 date-start: 2019-03-01 00:00:00 -0500
 date-end: 2019-12-01 00:00:00 -0500
 categories: [Projects]
-tags: [Final year project, Medical, Software Development, Teamwork, Project Management]
+tags: [Final year project, Medical, Software Development, Image Processing, Teamwork, Project Management]
 school: University of Wollongong
 location: Australia
 pin: true
@@ -14,23 +14,30 @@ pin: true
 ***Software development of OnkoDICOM, an open-source platform for radiotherapy research based on the DICOM standard***
 
 ![Shadow Avatar](/assets/img/posts/Onko_team2.jpg){: width="300" .shadow width="90%" }
+_Presentation of OnkoDICOM for the School of Computing and Information Technology (SCIT) Trade Show 2019 <br> at the University of Wollongong, Australia_
 
-### Technical description of OnkoDICOM
+### Technical Description of OnkoDICOM
 - Visualization of DICOM files and Dose-Volume histogram of regions of interest (ROIs)
 - Comparison of clinical data with radiomic data (statistics on the ROIs)
 - Anonymisation of output files
 - Initiated by the renowned oncologist Andrew Miller and our SCRUM master Ashley Maher
 - Currently being used by Radiation Oncologists at the Cancer Care Centre in Illawarra region (Australia)
 
-### Tasks performed
+### Tasks Performed
 <span style="color:grey">*Under the supervision of Ashley Maher from Didymo Designs and Professor Andrew Miller from Illawarra Cancer Care Center*</span>
 - Creation of the wireframes
 - Front-End development of the platform in Python with the PyQt 5 library
-- Application of the SCRUM method: weekly meeting with the Product Owner (Andrew Miller) and the SCRUM Master (Ashley Maher), daily meeting with the team
-- *Redmine* for project management
+- Application of the SCRUM method: 
+    - weekly meeting with the Product Owner (Andrew Miller) and the SCRUM Master (Ashley Maher)
+    - daily meeting with the team
 - Meeting minutes writing
 - Project proposal writing, as well as technical and functional documentation
 
+### Technologies Used
+- Python 3.6, PyQt5 and matplotlib librairies
+- *Redmine* for project management
+
+
 ### Useful Links
-- Official website: <https://onkodicom.com.au>
-- Github link: <https://github.com/didymo/OnkoDICOM>
+<a class="post-tag" style="color:Blue" href="https://onkodicom.com.au">Official website</a>
+<a class="post-tag" style="color:Blue" href="https://github.com/didymo/OnkoDICOM">Github link</a>

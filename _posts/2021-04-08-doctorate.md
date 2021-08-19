@@ -11,28 +11,28 @@ location: Clermont-Ferrand, France
 pin: true
 ---
 
-***Develop an automatic emotion recognition system, based on signals from visual, vocal and textual modalities***
+***Develop an automatic emotion recognition system, based on visual, vocal and textual signals***
 
-### Application Cases 
-*Jeolis Solutions* company projects that will benefit from the research work: 
-- **Estimate the emotional state** from a video support to improve a patient monitoring software developed by the company. This is to help health professionals to remotely have an insight of their mental health and prevent possible relapse risks (which is essential for patients suffering from a chronic or mental pathology).
-- **Adapting software content for a motivational purpose**: personalised physical activity coaching.
+### Context 
+- Under CIFRE contract between the *LIMOS* laboratory and *Jeolis Solutions* digital service company
+- *Jeolis Solutions* projects that will benefit from the research work: 
+    - **Estimate the emotional state** from a video support to improve a patient monitoring software developed by the company. This is to help health professionals to remotely have an insight of their mental health and prevent possible relapse risks (which is essential for patients suffering from a chronic or mental pathology).
+    - **Adapting software content for a motivational purpose**: personalised physical activity coaching.
  
 ### Main Challenges
 - Merge heterogeneous and high dimensional data
 - Manage conflicting information
 - Capture the ambiguity around emotion
 
-### Tasks currently performed
+### Tasks Currently Performed
 - Literature review on emotion recognition models and emotion psychology
 - Reflection on the application cases of the thesis
 - Research paper writing
 - Weekly meeting with the laboratory and the company teams
 
 ### Useful Links
-- Miners team website (AI research group of the LIMOS laboratory): <https://miners.limos.fr/>
-- Jeolis Solutions website (R&D, in French): <https://www.lojelis.com/fr/recherche-developpement-innovation/>
-- Jeolis Solutions website (in English): <https://www.lojelis.com/us/>
+<a class="post-tag" style="color:Blue" href="https://miners.limos.fr/">Miners team website (AI research group of the LIMOS laboratory)</a>
+<a class="post-tag" style="color:Blue" href="https://www.lojelis.com/fr/recherche-developpement-innovation/">Jeolis Solutions website (R&D)</a>
 
 ![Shadow Avatar](/assets/img/posts/Miners_team.jpg){: width="300" .shadow width="90%" }
 _Miners team (AI Research Group)_
