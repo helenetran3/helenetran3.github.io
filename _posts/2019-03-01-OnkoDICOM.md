@@ -24,7 +24,7 @@ _Presentation of OnkoDICOM for the School of Computing and Information Technolog
 - Currently being used by Radiation Oncologists at the Cancer Care Centre in Illawarra region (Australia)
 
 ### Tasks Performed
-<span style="color:grey">*Under the supervision of Ashley Maher from Didymo Designs and Professor Andrew Miller from Illawarra Cancer Care Center*</span>
+<span style="color:DarkGoldenRod">*Under the supervision of Ashley Maher from Didymo Designs and Professor Andrew Miller from Illawarra Cancer Care Center*</span>
 - Creation of the wireframes
 - Front-End development of the platform in Python with the PyQt 5 library
 - Application of the SCRUM method: 

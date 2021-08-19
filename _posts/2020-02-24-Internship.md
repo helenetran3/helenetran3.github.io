@@ -16,14 +16,14 @@ pin: true
 ***Classification of prostate cancer tumors in multiparametric MRI using Deep Learning techniques***
 
 ![Shadow Avatar](/assets/img/posts/prostate-cancer.png)
-_Detecting benign (ClinSig False) and malignant (ClinSig True) prostate tumors using convolutional neural networks <br> White: the pixel belongs to the class ; Black: does not belong to the class_
+_Detecting benign (ClinSig False) and malignant (ClinSig True) prostate tumors using convolutional neural networks <br> White: the pixel belongs to the class ; Black: does not belong to the class ; Database: PROSTATEx_
 
 ### Tasks Performed
 
 <span style="color:DarkGoldenRod">*Under the supervision of Eric Moulton from Guerbet and Nicolas Brunel from ENSIIE school*</span>
 
 - Literature review, familiarisation with prostate imaging and pathologies
-- **Medical imaging preprocessing**: normalisation, data augmentation, segmentation
+- **Medical image preprocessing**: normalisation, data augmentation, segmentation
 - **Development of convolutional network models in Python**, with the TensorFlow 2.0 library
 - Transformation of radiology and biopsy reports into structured data
 - Use of Git and Cloud Computing services (Microsoft Azure)

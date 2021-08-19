@@ -9,7 +9,7 @@
 %date-timeline-CV {  /* Vertical bar timeline */
   content: "";
   width: 4px;
-  left: 181px;
+  left: 121px;
   display: inline-block;
   float: left;
   position: relative;
@@ -22,7 +22,7 @@
   ul {
     li {
       font-size: 1.1rem;
-      line-height: 3rem;
+      line-height: 1.2rem;
 
       div {
         white-space: nowrap;
@@ -37,7 +37,7 @@
 
         a, p {
           /* Education title */
-          margin-left: 4.2rem;
+          margin-left: 5.5rem;
           position: relative;
         }
       }
@@ -50,8 +50,8 @@
       &::before {
         @extend %date-timeline-CV;
 
-        height: 3.8rem;
-        top: 1.3rem;
+        height: 5.2rem;
+        top: 1.7rem;
       }
 
       &:last-child::before {
@@ -64,9 +64,11 @@
 
   } // #CV ul
 
-  .date {
+  .date-start {
     white-space: nowrap;
     display: inline-block;
+    margin-top: 1.2rem;
+    margin-bottom: -0.3rem;
 
     &::after { /* Year dot */
       content: "";
@@ -77,8 +79,8 @@
       border-radius: 50%;
       width: 12px;
       height: 12px;
-      top: -29px;
-      left: 165px;
+      top: -17px;
+      left: 105px;
       border: 3px solid;
       background-color: var(--timeline-year-dot-color);
       border-color: var(--timeline-node-bg);
@@ -86,13 +88,19 @@
       z-index: 1;
     }
   }
+  
+
+  .date-end {
+    white-space: nowrap;
+    display: inline-block;
+  }
 
   .educ-location{
     white-space: nowrap;
     display: inline-block;
     // text-align: right;  // For right-align
     // position: absolute;
-    // right: 50px;
+    // left: 58px;
   }
 
 } // #CV

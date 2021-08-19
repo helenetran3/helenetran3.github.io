@@ -19,18 +19,23 @@ layout: page
     {% capture end_month %}{{ post.date-end | date: "%b" }}{% endcapture %}
     <li>
       <div>
-        <span class="date">
+        <span class="date-start">
           <span class="small text-muted">{{ start_month }}</span>
-          <span>{{ start_year }}</span>
-          <span class="small text-muted"> - {{ end_month }} </span>
-          <span>{{ end_year }}</span>
+          <span>{{ start_year }} -</span>
         </span>
 
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="educ-location small">
+        
+        <br>
+        <span class="date-end">
+          <span class="small text-muted"> {{ end_month }} </span>
+          <span>{{ end_year }}</span>
+        </span>
+
+        <p class="educ-location small">
           <span>{{ post.school }},</span>
           <span class="text-muted"> <i>{{ post.location }}</i></span>
-        </span>
+        </p>
       </div>
     </li>
     {% endfor %}
