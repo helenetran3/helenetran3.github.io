@@ -2,10 +2,11 @@
   Style for Homepage
 */
 
-#about {
+#home-about {
   margin-top: 3rem;
   margin-bottom: 2rem;
   padding-right: 0.5rem;
+  font-style: italic;
 
   .p { 
     margin-bottom: 0.5rem;
@@ -13,7 +14,7 @@
 
 } // #about
 
-#background {
+#home-background {
   .p { 
     margin-bottom: 0.5rem;
   }
