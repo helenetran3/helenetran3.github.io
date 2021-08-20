@@ -19,6 +19,7 @@ _Presentation of OnkoDICOM for the School of Computing and Information Technolog
 ### Technical Description of OnkoDICOM
 - Visualization of DICOM files and Dose-Volume histogram of regions of interest (ROIs)
 - Comparison of clinical data with radiomic data (statistics on the ROIs)
+- Machine Learning pipeline to get insights from ROIs
 - Anonymisation of output files
 - Initiated by the renowned oncologist Andrew Miller and our SCRUM master Ashley Maher
 - Currently being used by Radiation Oncologists at the Cancer Care Centre in Illawarra region (Australia)
