@@ -3,7 +3,7 @@ title: OnkoDICOM Software for Radiation Oncologists
 author: Hélène Tran
 date-start: 2019-03-01 00:00:00 -0500
 date-end: 2019-12-01 00:00:00 -0500
-categories: [Projects]
+categories: [Projects, Academic]
 tags: [Final year project, Medical, Software Development, Image Processing, Teamwork, Project Management]
 school: University of Wollongong
 location: Australia

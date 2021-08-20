@@ -3,7 +3,7 @@ title: Prostate Cancer Classification
 author: Hélène Tran
 date-start: 2020-02-24 00:00:00 -0500
 date-end: 2020-08-21 00:00:00 -0500
-categories: [Projects]
+categories: [Projects, Academic]
 tags: [Internship, Final year project, Medical, Artificial Intelligence, Cloud Computing, Image Processing, Teamwork]
 company: Guerbet
 school: ENSIIE

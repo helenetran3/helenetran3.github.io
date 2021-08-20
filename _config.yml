@@ -17,7 +17,7 @@ timezone: Europe/Paris
 # --------------------------
 title: Hélène TRAN                          # the main title
 
-tagline: Ph.D Candidate in Artificial Intelligence   # it will display as the sub-title
+tagline: Ph.D in Artificial Intelligence   # it will display as the sub-title
 
 location: Clermont-Ferrand, France     # current location
 
@@ -175,4 +175,4 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-    category: /categories/:name/
+    category: /blog/:name/

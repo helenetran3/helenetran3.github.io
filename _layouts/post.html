@@ -31,10 +31,11 @@ layout: default
       <div class="post-meta text-muted d-flex flex-column post-date-author">
         <!-- Published date and author -->
         <div>
-          <span class="semi-bold">
+          <!-- <span class="semi-bold">
             {{ page.author | default: site.social.name }}
-          </span>
-          {% include timeago.html date=page.date prep="on" tooltip=true %}
+          </span> -->
+          {% include timeago.html date=page.date %} 
+          <!--date=page.date prep="on" tooltip=true %}--> 
         </div>
 
         <div>
@@ -61,7 +62,7 @@ layout: default
         <div class="post-meta mb-3">
           <i class="far fa-folder-open fa-fw mr-1"></i>
           {% for category in page.categories %}
-            <a href='{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/'>{{ category }}</a>
+            <a href='{{ site.baseurl }}/blog/{{ category | slugify | url_encode }}/'>{{ category }}</a>
             {%- unless forloop.last -%}, {%- endunless -%}
           {% endfor %}
         </div>
