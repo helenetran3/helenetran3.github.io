@@ -31,6 +31,7 @@ _Presentation of OnkoDICOM for the School of Computing and Information Technolog
 - Application of the SCRUM method: 
     - weekly meeting with the Product Owner (Andrew Miller) and the SCRUM Master (Ashley Maher)
     - daily meeting with the team
+- Helped the team with the understanding of the Model-View-Controller structure
 - Meeting minutes writing
 - Project proposal writing, as well as technical and functional documentation
 
