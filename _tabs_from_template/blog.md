@@ -1,8 +1,6 @@
 ---
+layout: categories
 title: Blog
-icon: fas fa-pen-nib
+icon: fas fa-stream
 order: 4
 ---
-
-
-> *Coming soon!*
