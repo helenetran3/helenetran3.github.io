@@ -8,6 +8,7 @@ layout: page
 {% assign LIST_PREFIX = "l_" %}
 
 {% assign group_index = 0 %}
+{% assign count = 0 %}
 {% assign sort_categories = site.categories | sort %}
 
 {% for category in sort_categories %}
@@ -16,6 +17,7 @@ layout: page
   {% assign first_post = posts_of_category | first %}
 
   {% if category_name == first_post.categories[0] and category_name != "Education" and category_name != "Publications" and category_name != "Volunteering" %}
+    {% assign count = count | plus: 1 %}
     {% assign sub_categories = "" | split: "" %}
 
     {% for post in posts_of_category %}
@@ -97,3 +99,9 @@ layout: page
 
   {% endif %}
 {% endfor %}
+
+{% if count == 0%}
+  
+<i>Coming soon!</i>
+
+{% endif %}

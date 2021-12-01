@@ -2,5 +2,5 @@
 layout: cv
 title: CV
 icon: fas fa-briefcase
-order: 4
+order: 5
 ---
