@@ -11,10 +11,11 @@ pin: true
 ---
 
 
-***Software development of OnkoDICOM, an open-source platform for radiotherapy research based on the DICOM standard***
+### Main Objective
+**Software development of <a style="color:Blue" href="https://onkodicom.com.au">OnkoDICOM</a>, an open-source platform for radiotherapy research based on the DICOM standard**
 
-![Shadow Avatar](/assets/img/posts/Onko_team2.jpg){: width="300" .shadow width="90%" }
-_Presentation of OnkoDICOM for the School of Computing and Information Technology (SCIT) Trade Show 2019 <br> at the University of Wollongong, Australia_
+![Shadow Avatar](/assets/img/posts/onkodicom.png){: width="300" .shadow width="90%" }
+_OnkoDICOM software_
 
 ### Technical Description of OnkoDICOM
 - Visualization of DICOM files and Dose-Volume histogram of regions of interest (ROIs)
@@ -26,14 +27,14 @@ _Presentation of OnkoDICOM for the School of Computing and Information Technolog
 
 ### Tasks Performed
 <span style="color:DarkGoldenRod">*Under the supervision of Ashley Maher from Didymo Designs and Professor Andrew Miller from Illawarra Cancer Care Center*</span>
-- Creation of the wireframes
-- Front-End development of the platform in Python with the PyQt 5 library
-- Application of the SCRUM method: 
+- [x] Creation of the wireframes
+- [x] Front-End development of the platform in Python with the PyQt 5 library
+- [x] Application of the SCRUM method: 
     - weekly meeting with the Product Owner (Andrew Miller) and the SCRUM Master (Ashley Maher)
     - daily meeting with the team
-- Helped the team with the understanding of the Model-View-Controller structure
-- Meeting minutes writing
-- Project proposal writing, as well as technical and functional documentation
+- [x] Helped the team with the understanding of the Model-View-Controller structure
+- [x] Meeting minutes writing
+- [x] Project proposal writing, as well as technical and functional documentation
 
 ### Technologies Used
 - Python 3.6, PyQt5 and matplotlib librairies
@@ -43,3 +44,6 @@ _Presentation of OnkoDICOM for the School of Computing and Information Technolog
 ### Useful Links
 <a class="post-tag" style="color:Blue" href="https://onkodicom.com.au">Official website</a>
 <a class="post-tag" style="color:Blue" href="https://github.com/didymo/OnkoDICOM">Github link</a>
+
+![Shadow Avatar](/assets/img/posts/Onko_team2.jpg){: width="300" .shadow width="90%" }
+_Presentation of OnkoDICOM for the School of Computing and Information Technology (SCIT) Trade Show 2019 <br> at the University of Wollongong, Australia_
